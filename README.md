@@ -1,4 +1,3 @@
-<img width="975" height="600" alt="image" src="https://github.com/user-attachments/assets/a2cde09e-47f2-41f4-b48a-7527d7c226ae" />## Apple Store – React + Vite
 
 ## Apple Store – React + Vite
 
@@ -14,15 +13,15 @@
 A modern demo replicating the Apple Store feel with realtime 3D models, smooth animations, and a reusable code architecture. The project focuses on performance, UX, and scalability.
 
 ### Table of Contents
-- [Tech Stack](#tech-stack)
-- [Features](#features)
-- [Code Architecture](#code-architecture)
-- [Screens & Highlights](#screens--highlights)
-- [Getting Started](#getting-started)
-- [Scripts](#scripts)
-- [Optional Configuration](#optional-configuration)
+1. 💻 [Tech Stack](#tech-stack)
+2. ✨ [Features](#features)
+3. 🗂️ [Code Architecture](#code-architecture)
+4. 🖼️ [Screens & Highlights](#screens--highlights)
+5. 📚 [Getting Started](#getting-started)
+6. 📜 [Scripts](#scripts)
+7. 🧩 [Optional Configuration](#optional-configuration)
 
-## Tech Stack
+## 💻 Tech Stack
 - React.js
 - Three.js
 - React Three Fiber
@@ -31,14 +30,14 @@ A modern demo replicating the Apple Store feel with realtime 3D models, smooth a
 - Vite
 - Tailwind CSS
 
-## Features
+## ✨ Features
 - 👉 Beautiful Subtle Smooth Animations using GSAP: Enhanced user experience with seamless and captivating animations powered by GSAP.
 - 👉 3D Model Rendering with Different Colors and Sizes: Explore the iPhone 15 Pro from every angle with dynamic 3D rendering, offering various color and size options.
 - 👉 Custom Video Carousel (made with GSAP): Engage users with a unique and interactive video carousel developed using GSAP for a personalized browsing experience.
 - 👉 Completely Responsive: Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes.
 - …and many more, including code architecture and reusability.
 
-## Code Architecture
+## 🗂️ Code Architecture
 - `src/components`: Core UI components (Hero, Highlights, Features, Model, VideoCarousel, …)
 - `src/constants`: Static data (nav lists, slides, models, sizes, …)
 - `src/utils`: Helpers (animations, media utils, assets mapping)
@@ -47,14 +46,14 @@ A modern demo replicating the Apple Store feel with realtime 3D models, smooth a
 - `public/models`: GLB models and public assets
 
 
-## Screens & Highlights
+## 🖼️ Screens & Highlights
 - Hero with video
 - Highlights with animated title and links
 - Custom GSAP-driven video carousel with progress indicators
 - 3D iPhone viewer with color/size controls
 - Features section with images/video and scroll animations
 
-## Getting Started
+## 📚 Getting Started
 1) Prerequisites
 - Node.js >= 18
 - npm (or pnpm/yarn)
@@ -91,12 +90,12 @@ Artifacts will be generated in the `dist/` folder.
 npm run preview
 ```
 
-## Scripts
+## 📜 Scripts
 - `dev`: start Vite dev server
 - `build`: build production bundle
 - `preview`: preview the production build locally
 
-## Optional Configuration
+## 🧩 Optional Configuration
 - Sentry: The project includes Sentry integration. Update the `dsn` in `src/main.jsx` if you want error/perf monitoring.
 - 3D Assets: GLB models live in `public/models/`. Replace assets as needed and adjust camera/scale in `ModelView.jsx`.
 - Tailwind: Mix utility classes in JSX with fine‑grained styles in `src/index.css`.
